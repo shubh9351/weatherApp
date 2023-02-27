@@ -1,0 +1,17 @@
+{
+  "name": "weather-project",
+  "version": "1.0.0",
+  "description": "Its a sample weather app info provider tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js",
+    "serveapp": "nodemon app.js"
+  },
+  "author": "shubham.j",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

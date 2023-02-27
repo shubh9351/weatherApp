@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.heading{
+    font-size: 21px;
+    font-style: normal;
+    display: block;
+    font-weight: 500;
+    color: blueviolet;
+}
+.submit{
+    background-color:blueviolet;
+    color: white;
+    font-weight: 500;
+    display: block;
+}
+.input {
+    padding: 5px 2px;
+    margin: 10px 0;
+    display: block;
+}
